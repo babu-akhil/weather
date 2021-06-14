@@ -14,10 +14,11 @@ body {
 #searchBar {
     height: 40px;
     background-color: transparent;
+    font-family: 'Josefin Sans';
     color: white;
     border: none;
     width: 390px;
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
     font-size: 25px;
 }
 

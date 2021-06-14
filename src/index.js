@@ -8,9 +8,8 @@ const style = require('./style.css')
 // Wind Speeds in m/s convert to km/h. And temperature convert to Celsius
 
 // Data Fetching / Update
-
 async function getData(location) {
-    try {let response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}}`)
+    try {let response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`)
     let data = await response.json()
     mainDataView(body, data);
     } catch {
