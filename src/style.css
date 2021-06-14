@@ -1,0 +1,114 @@
+/* https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+
+body {
+    background-color: #112D4E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#searchBar {
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 390px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#searchBarContainer button {
+    background-color: transparent;
+    margin-left: -30px;
+    margin-bottom : none;
+    border: none;
+    filter: invert(100%);
+}
+
+#searchBarContainer {
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 40px;
+    display: flex;
+    align-content: center;
+}
+
+#mainDataContainer {
+    margin-top: 20px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+
+#firstRow {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+#title {
+    transform: translateY(25px);
+    height: 50px;
+    font-size: 35px;
+}
+
+#firstRow img{
+    justify-self:flex-end;
+    transform: translateY(-10px) translateX(20px);
+    filter: brightness(150%)
+}
+
+#anotherRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 400;
+    width: 400px;
+    margin-top: -25px;
+}
+
+#anotherRow #desc {
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+#secondRow {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#temp {
+    margin-left: auto;
+    font-size: 70px;
+    transform: translateX(20px) translateY(28px);
+    font-weight: 100;
+    border-right: 1px solid white;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: auto;
+}
+
+#secondaryInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+#secondaryInfo div {
+    margin-top: 3px;
+}
+
