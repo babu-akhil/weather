@@ -9,7 +9,7 @@ const style = require('./style.css')
 
 // Data Fetching / Update
 async function getData(location) {
-    try {let response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`)
+    try {let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`)
     let data = await response.json()
     mainDataView(body, data);
     } catch {
